@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    background: url(../images/background2.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    max-width: 1884px;
+}
+
+.top-icon {
+    color: white;
+}
+
+nav {
+    margin-bottom: 4.5rem;
+}
+
+.collapse {
+    font-size: 1.0rem
+}
+
+.nav-item {
+    margin-right: 20px;
+    padding: 5px 15px;
+}
+
+.nav-item:hover {
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid blue;
+    box-shadow: 0 5px 1px darkblue;
+}
+
+#main-session {
+    width: 70%;
+    height: 600px;
+    background-color: darkblue;
+    opacity: 0.8;
+    border-radius: 50px;
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+    box-shadow: 0 5px 2px yellow;
+    background-position: center center;
+}
+
+#artiste-bold {
+    font-family: 'Major Mono Display', monospace;
+}
+
+#artiste-img {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+img {
+    border-radius: 0 50px 0 50px;
+}
+
+#play-box {
+    width: 97%;
+    height: 55px;
+    background-color: black;
+    border-radius: 50px 0 95px 50px;
+    position: absolute;
+    top: 545px;
+    left: 29px;
+    background-position: center center;
+    opacity: 1;
+}
+
+.music-box {
+    position: relative;
+    left: 1px;
+    bottom: 0;
+    background-position: center center;
+    opacity: 1;
+}
+
+.artiste-bio {
+    font-family: 'Ubuntu', sans-serif;
+    display: inline;
+    position: absolute;
+    font-size: 1.2rem;
+    line-height: 2.0;
+    left: 400px;
+    color: white;
+    top: 20px;
+    background-position: center center;
+}
+
+.download-btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: greenyellow;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+}
+
+.download-btn:hover {
+    text-decoration: none;
+    color: aqua;
+}
