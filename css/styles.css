@@ -41,12 +41,11 @@ nav {
     width: 70%;
     height: 600px;
     background-color: darkblue;
-    opacity: 0.8;
     border-radius: 50px;
     position: relative;
     left: 180px;
     bottom: 50px;
-    box-shadow: 0 5px 2px yellow;
+    box-shadow: 0 5px 50px black;
     background-position: center center;
 }
 
@@ -62,12 +61,13 @@ nav {
 
 img {
     border-radius: 0 50px 0 50px;
+    z-index: 1;
 }
 
 #play-box {
     width: 97%;
     height: 55px;
-    background-color: black;
+    background-color: darkblue;
     border-radius: 50px 0 95px 50px;
     position: absolute;
     top: 545px;
@@ -109,4 +109,24 @@ img {
 .download-btn:hover {
     text-decoration: none;
     color: aqua;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    width: 100%;
+    align-items: center;
+    @include transition($carousel-transition);
+    backface-visibility: hidden;
+    perspective: 1000px;
 }
